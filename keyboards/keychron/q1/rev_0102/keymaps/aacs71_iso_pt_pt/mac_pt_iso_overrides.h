@@ -32,4 +32,5 @@
 #define MAC_PT_COMM KC_COMM     // ,
 #define MAC_PT_DOT  KC_DOT      // .
 #define MAC_PT_MINS KC_SLSH     // -
-
+#define MAC_PT_LCBR ALGR(PT_7)    // {
+#define MAC_PT_RCBR ALGR(PT_0)    // }

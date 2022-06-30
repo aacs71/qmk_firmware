@@ -33,7 +33,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
             KC_TAB,         PT_Q,          PT_W,      PT_E,     PT_R,      PT_T,    PT_Y,      PT_U,      PT_I,      PT_O,          PT_P,           MAC_PT_PLUS,  MAC_PT_ACUT,   KC_HOME,
             KC_CAPS,        PT_A,          PT_S,      PT_D,     PT_F,      PT_G,    PT_H,      PT_J,      PT_K,      PT_L,          MAC_PT_CCED,    MAC_PT_MORD,  MAC_PT_TILD,   KC_ENT,    KC_END,
             KC_LSFT,        MAC_PT_LABK,   PT_Z,      PT_X,     PT_C,      PT_V,    PT_B,      PT_N,      PT_M,      MAC_PT_COMM,   MAC_PT_DOT,     MAC_PT_MINS,  KC_RSFT,       KC_UP,
-            KC_LCTL,        KC_LALT,       KC_LGUI,   KC_SPC,   KC_RGUI,   MO(1),     KC_RCTL,   KC_LEFT,   KC_DOWN,   KC_RGHT
+            KC_LGUI,        KC_LALT,       KC_LCTL,   KC_SPC,   KC_RGUI,   MO(1),     KC_RCTL,   KC_LEFT,   KC_DOWN,   KC_RGHT
             ),
 	[MAC_FN] = LAYOUT_iso_83(
             KC_ESC,    KC_BRID,    KC_BRIU,   KC_TRNS,   KC_TRNS,   RGB_VAD,   RGB_VAI,   KC_MPRV,   KC_MPLY,   KC_MNXT,   KC_MUTE,   KC_VOLD,   KC_VOLU,   KC_INS,   KC_TRNS,
