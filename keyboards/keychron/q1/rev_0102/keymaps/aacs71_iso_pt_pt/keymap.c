@@ -28,9 +28,9 @@
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	[MAC_BASE] = LAYOUT_iso_83(
-            KC_ESC,         KC_F1,         KC_F2,     KC_F3,    KC_F4,     KC_F5,   KC_F6,     KC_F7,     KC_F8,     KC_F9,         KC_F10,         KC_F11,       KC_F12,        KC_DEL,    KC_PGUP,
-            MAC_PT_BSLS,    PT_1,          PT_2,      PT_3,     PT_4,      PT_5,    PT_6,      PT_7,      PT_8,      PT_9,          PT_0,           MAC_PT_QUOT,  MAC_PT_LDAQ,   KC_BSPC,   KC_PGDN,
-            KC_TAB,         PT_Q,          PT_W,      PT_E,     PT_R,      PT_T,    PT_Y,      PT_U,      PT_I,      PT_O,          PT_P,           MAC_PT_PLUS,  MAC_PT_ACUT,   KC_HOME,
+            KC_ESC,         KC_F1,         KC_F2,     KC_F3,    KC_F4,     KC_F5,   KC_F6,     KC_F7,     KC_F8,     KC_F9,         KC_F10,         KC_F11,       KC_F12,        KC_DEL,    KC_HOME,
+            MAC_PT_BSLS,    PT_1,          PT_2,      PT_3,     PT_4,      PT_5,    PT_6,      PT_7,      PT_8,      PT_9,          PT_0,           MAC_PT_QUOT,  MAC_PT_LDAQ,   KC_BSPC,   KC_PGUP,
+            KC_TAB,         PT_Q,          PT_W,      PT_E,     PT_R,      PT_T,    PT_Y,      PT_U,      PT_I,      PT_O,          PT_P,           MAC_PT_PLUS,  MAC_PT_ACUT,   KC_PGDN,
             KC_CAPS,        PT_A,          PT_S,      PT_D,     PT_F,      PT_G,    PT_H,      PT_J,      PT_K,      PT_L,          MAC_PT_CCED,    MAC_PT_MORD,  MAC_PT_TILD,   KC_ENT,    KC_END,
             KC_LSFT,        MAC_PT_LABK,   PT_Z,      PT_X,     PT_C,      PT_V,    PT_B,      PT_N,      PT_M,      MAC_PT_COMM,   MAC_PT_DOT,     MAC_PT_MINS,  KC_RSFT,       KC_UP,
             KC_LGUI,        KC_LALT,       KC_LCTL,   KC_SPC,   KC_RGUI,   MO(1),     KC_RCTL,   KC_LEFT,   KC_DOWN,   KC_RGHT
@@ -45,9 +45,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
             ),
 
     [WIN_BASE] = LAYOUT_iso_83(
-            KC_ESC,    KC_F1,     KC_F2,     KC_F3,    KC_F4,     KC_F5,   KC_F6,     KC_F7,     KC_F8,     KC_F9,     KC_F10,    KC_F11,    KC_F12,    KC_DEL,    KC_PGUP,
-            PT_BSLS,   PT_1,      PT_2,      PT_3,     PT_4,      PT_5,    PT_6,      PT_7,      PT_8,      PT_9,      PT_0,      PT_QUOT,   PT_LDAQ,   KC_BSPC,   KC_PGDN,
-            KC_TAB,    PT_Q,      PT_W,      PT_E,     PT_R,      PT_T,    PT_Y,      PT_U,      PT_I,      PT_O,      PT_P,      PT_PLUS,   PT_ACUT,   KC_HOME,
+            KC_ESC,    KC_F1,     KC_F2,     KC_F3,    KC_F4,     KC_F5,   KC_F6,     KC_F7,     KC_F8,     KC_F9,     KC_F10,    KC_F11,    KC_F12,    KC_DEL,    KC_HOME,
+            PT_BSLS,   PT_1,      PT_2,      PT_3,     PT_4,      PT_5,    PT_6,      PT_7,      PT_8,      PT_9,      PT_0,      PT_QUOT,   PT_LDAQ,   KC_BSPC,   KC_PGUP,
+            KC_TAB,    PT_Q,      PT_W,      PT_E,     PT_R,      PT_T,    PT_Y,      PT_U,      PT_I,      PT_O,      PT_P,      PT_PLUS,   PT_ACUT,   KC_PGDN,
             KC_CAPS,   PT_A,      PT_S,      PT_D,     PT_F,      PT_G,    PT_H,      PT_J,      PT_K,      PT_L,      PT_CCED,   PT_MORD,   PT_TILD,   KC_ENT,    KC_END,
             KC_LSFT,   PT_LABK,   PT_Z,      PT_X,     PT_C,      PT_V,    PT_B,      PT_N,      PT_M,      PT_COMM,   PT_DOT,    PT_MINS,   KC_RSFT,   KC_UP,
             KC_LCTL,   KC_LGUI,   KC_LALT,   KC_SPC,   KC_RALT,   MO(3),   KC_RCTL,   KC_LEFT,   KC_DOWN,   KC_RGHT
